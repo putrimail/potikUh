@@ -38,7 +38,11 @@ function App() {
                 text="Tik Tok"
                 link="https://www.tiktok.com/@potik.hamzanwadi?_t=ZS-8vU7I43NjDs&_r=1"
               />
-              <Option logo={<FaYoutube />} text="YouTube" link="" />
+              <Option
+                logo={<FaYoutube />}
+                text="YouTube"
+                link="https://www.youtube.com/@potikhamzanwadi"
+              />
               <Option
                 logo={<FaGoogleDrive />}
                 text="Infografis"
