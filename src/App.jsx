@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import LogoPojok from "./assets/logoPojok.png";
 import {
@@ -6,6 +5,7 @@ import {
   FaTiktok,
   FaYoutube,
   FaGoogleDrive,
+  FaFolderOpen,
 } from "react-icons/fa6";
 function App() {
   return (
@@ -45,6 +45,11 @@ function App() {
                 logo={<FaGoogleDrive />}
                 text="Infografis"
                 link="https://drive.google.com/drive/folders/1-9ms6__PWQ9FH3Lt_TexxSs0B530Ayb3"
+              />
+              <Option
+                logo={<FaFolderOpen />}
+                text="Dokumentasi"
+                link="https://drive.google.com/drive/folders/1ghbN_7FQIU7D3oquq1sGwv_2-tJUymq_"
               />
             </div>
           </div>
