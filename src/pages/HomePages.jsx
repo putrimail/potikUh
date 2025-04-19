@@ -44,8 +44,16 @@ function HomePages() {
               text="DOKUMENTASI"
               link="https://drive.google.com/drive/folders/1ghbN_7FQIU7D3oquq1sGwv_2-tJUymq_"
             />
-            <Option logo={<logos.waves />} text="STATWAVES" link="/statwaves" />
-            <Option logo={<logos.waves />} text="ISPIRE" link="/inspire" />
+            <Option
+              logo={<logos.waves />}
+              text="STATWAVES"
+              link="https://linktree-potik-uh.vercel.app/statwaves"
+            />
+            <Option
+              logo={<logos.waves />}
+              text="ISPIRE"
+              link="https://linktree-potik-uh.vercel.app/inspire"
+            />
           </div>
         </div>
       </div>
