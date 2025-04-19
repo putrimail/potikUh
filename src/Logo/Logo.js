@@ -5,6 +5,7 @@ import {
   FaGoogleDrive,
   FaFolderOpen,
   FaArrowUpRightFromSquare,
+  FaPen,
 } from "react-icons/fa6";
 import { PiCertificateLight } from "react-icons/pi";
 import { SiGooglemeet } from "react-icons/si";
@@ -18,5 +19,6 @@ export const logos = {
   waves: FaArrowUpRightFromSquare,
   serifikat: PiCertificateLight,
   meet: SiGooglemeet,
+  cekin: FaPen,
   logoPojok: LogoPojok,
 };

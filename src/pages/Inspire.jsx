@@ -23,9 +23,14 @@ function Inspire() {
             <h2>INSPIRE</h2>
           </div>
           <div className="text-center ">
-            <Option logo={<logos.meet />} text="ZOOM" link="" />
-            <Option logo={<logos.serifikat />} text="SERTIFIKAT" link="" />
-            <Option logo={<logos.drive />} text="DOKUMENTASI" link="" />
+            <Option
+              logo={<logos.meet />}
+              text="ZOOM"
+              link="https://s.bps.go.id/inspire_ep5"
+            />
+            <Option logo={<logos.cekin />} text="ABSENSI" link="" />
+            {/* <Option logo={<logos.serifikat />} text="SERTIFIKAT" link="" />
+            <Option logo={<logos.drive />} text="DOKUMENTASI" link="" /> */}
           </div>
         </div>
       </div>
