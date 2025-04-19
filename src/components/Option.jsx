@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
+
 function Option({ logo, text, link }) {
   return (
-    <a
-      href={link}
+    <Link
+      to={link}
       target="new_blank"
       className="text-decoration-none text-dark"
     >
@@ -18,7 +20,7 @@ function Option({ logo, text, link }) {
           {text}
         </button>
       </div>
-    </a>
+    </Link>
   );
 }
 
