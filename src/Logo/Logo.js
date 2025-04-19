@@ -6,6 +6,8 @@ import {
   FaFolderOpen,
   FaArrowUpRightFromSquare,
   FaPen,
+  FaBook,
+  FaRecordVinyl,
 } from "react-icons/fa6";
 import { PiCertificateLight } from "react-icons/pi";
 import { SiGooglemeet } from "react-icons/si";
@@ -20,5 +22,7 @@ export const logos = {
   serifikat: PiCertificateLight,
   meet: SiGooglemeet,
   cekin: FaPen,
+  materi: FaBook,
+  record: FaRecordVinyl,
   logoPojok: LogoPojok,
 };

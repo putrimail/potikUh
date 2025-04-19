@@ -38,7 +38,16 @@ function Inspire() {
               text="SERTIFIKAT"
               link="https://drive.google.com/drive/folders/11jQ6RUVTIOSDSLaBMop3Pj_kPm9L_27N?usp=sharing"
             />
-            {/* <Option logo={<logos.drive />} text="DOKUMENTASI" link="" /> */}
+            <Option
+              logo={<logos.materi />}
+              text="MATERI"
+              link="https://drive.google.com/drive/folders/1731ZUNkSkrCQ-6FJURcxXw0Fjy_ynYCu?usp=sharing"
+            />
+            <Option
+              logo={<logos.record />}
+              text="MATERI"
+              link="https://drive.google.com/drive/folders/12AtO8sb4oendYrqy5Taq6tdRbm0Om21H?usp=sharing"
+            />
           </div>
         </div>
       </div>
